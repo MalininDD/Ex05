@@ -5,6 +5,6 @@ T averageArr(int n, T* mass){
     for (int i = 0; i  < n; i++) {
         sum += mass[i];
     }
-    T sum/n;
+    return sum/n;
 }
 
